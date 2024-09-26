@@ -27,5 +27,14 @@
 
    double resultMul = num5 * num6;
    System.out.println("El resultado de la multiplicación es: " + resultMul);
-    
 
+
+// Reemplazar las lecturas de números con validación
+           System.out.println("Ingrese el primer número para la división:");
+           while (!scanner.hasNextDouble()) {
+           System.out.println("Entrada inválida. Por favor, ingrese un número:");
+           scanner.next();
+           }
+           double num7 = scanner.nextDouble();
+
+// Repetir el mismo proceso para num8
